@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" type="image/x-icon" href="icon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lachlan's Projects</title>
+	</head>
+
+	<body>
+		<section class="titlebar">
+			<h1>Lachlan Cooke</h1>
+			<nav>
+				<p><a href="index.html">Intro</a></p>
+				<p class="selected"><a href="projects.html">Projects</a></p>
+				<p><a href="contact.html">Contact</a></p>
+				<p><a href="">Blog</a></p>
+			</nav>
+		</section>
+		
+		<section class="content">
+			<h1>Simulation Environment with NVIDIA Isaac Sim</h1>
+			<img src="IsaacUI.png" alt="IsaacSim User Interface" style="width: 20%; float: right; border-radius: 5%; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+			<p>Undertaken between July and November 2023, this was the "capstone" unit for my Bachelors of Computer Science at Western Sydney University.</p>
+			<p>As a group of 5, down to 4 by the midway point of the project, we were tasked with communicating with a client to solve a given problem.</p>
+			<p>The project brief outlined the use of an advanced robotics simulation platform, 
+			NVIDIA Isaac Sim, which would be utilised to visualise how robotics integrate within an aged care facility.</p>
+			<p>My role within this team was to communicate with the university's IT team in order to be allocated a sufficient AWS virtual machine, 
+			as well as to communicate with the client and subsequently develop an appropriate user interface for the program.</p>
+			<p>The end result of the project resulted in me achieving a High Distinction for the unit, with the client voicing their appreciation for the work the team had put into learning Isaac Sim, Omniverse, docker, ROS, GitLab, Linux, and Python.</p>
+		</section>
+		
+		<section class="content">
+			<h1>AP-Bot</h1>
+			<p>Running on a Raspberry Pi 3, it is a python script that interacts with instant-messaging platform Discord's API to receive commands from users and perform varying operations such as:</p>
+			<ul>
+				<li>Download media from a given URL and play it back in a voice channel.</li>
+				<li>Remotely turn on and off a computer running various video game servers.</li>
+				<li>Log potentially malicious messages from users for further action.</li>
+			</ul>
+		</section>
+		
+		<section class="content">
+			<h1>DIY computer numpad</h1>
+			<img src="numpad.jpg" alt="numpad image" style="width: 35%; float: right; border-radius: 5%; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+			<p>Starting from a PCB created from scratch in KiCad and produced by JLCPCB, it is a basic 10-key numpad.</p>
+			<p>The diodes and keyboard sockets were hand-soldered to the PCB, along with the Arduino Pro Micro used to power the code interpreting the key presses for the computer.</p>
+			<p>At time of writing, I am still in the process of designing the case with 3D modelling software Fusion 360, where I will then 3D print it.</p>
+		</section>
+		
+		<section class="content">
+			<h1>Unnamed Web scraping and FTP scripts</h1>
+			<p>A python script that connects to a given IP address either via a hosted webpage or an FTP server and uses regular expressions to obtain the ID of the process running and temperature of the device.</p>
+			<p>This data is then used to map the ID to an image and name, and finally sent to messaging platform "Discord" to be set as the user's open program.</p>
+			<p>Programming used:</p>
+			<ul>
+				<li>Python3.</li>
+				<li>regular expressions (regex).</li>
+				<li>sqlite3.</li>
+				<li>web scraping.</li>
+				<li>File Transfer Protocol (FTP).</li>
+			</ul>
+		</section>
+	</body>
+</html>
