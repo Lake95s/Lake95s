@@ -1,3 +1,3 @@
 # Lo-can
  
-https://lo-can.github.io/Lo-can/index.html
+https://lake95s.github.io/Lake95s/index.html
